@@ -1,0 +1,11 @@
+.dropdown {
+  display: flex;
+  flex-direction: column;
+  padding: 4px;
+  /* text-align: center; */
+  font-weight: bold;
+}
+
+.dropdown-title {
+  margin-bottom: 8px;
+}
