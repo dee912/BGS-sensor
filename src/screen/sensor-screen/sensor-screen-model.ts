@@ -32,7 +32,6 @@ const SensorScreenViewModel = () => {
       try {
         setLoading(true);
         const url = item["Observations@iot.navigationLink"];
-        console.log("Fetching data from:", url);
         const response = await fetch(url);
 
         if (!response.ok) {
